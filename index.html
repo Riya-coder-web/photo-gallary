@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="hack2.css">
+</head>
+<body>
+    <div class="gallery" id="gallerybox">
+        <div class="thumbnail">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/best-small-dog-breeds-corgi-1598987933.jpg?crop=0.573xw:1.00xh;0.0708xw,0&resize=980:*" alt="Image 1" data-full="image1.jpg" data-description="This is image 1">
+        </div>
+        <div class="thumbnail">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/miniature-american-eskimo-royalty-free-image-1643306359.jpg?crop=0.71441xw:1xh;center,top&resize=980:*" alt="Image 2" data-full="image2.jpg" data-description="This is image 2">
+        </div>
+        <div class="thumbnail">
+            <img src="https://i.pinimg.com/736x/f2/ec/90/f2ec9081f84953b5f67bfa5464f894db.jpg" alt="Image 3" data-full="image3.jpg" data-description="This is image 3">
+        </div>
+        <div class="thumbnail">
+            <img src="https://cdn.pixabay.com/photo/2024/02/28/09/25/ai-generated-8601608_640.jpg" alt="Image 4" data-full="image4.jpg" data-description="This is image 4">
+        </div>
+        <div class="thumbnail">
+            <img src="https://t3.ftcdn.net/jpg/06/92/69/34/240_F_692693406_DGwRfq6VH8ww57NVW5cgpHCu4B9RRtmA.jpg" alt="Image 5" data-full="image5.jpg" data-description="This is image 5">
+        </div>
+        <div class="thumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzYM8r2OchbOLSlXah89woiJ7Nbv4pvsP7kQ&s" alt="Image 6" data-full="image6.jpg" data-description="This is image 6">
+        </div>
+        <div class="thumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSanBWM7SZ8-S9cBScRJuzpfl4rwgv-n5wAtQVvxDJUUydVZ7WjU8Xk6eFC-I7Fni9Wv8&usqp=CAU" alt="Image 7" data-full="image7.jpg" data-description="This is image 7">
+        </div>
+        <div class="thumbnail"> 
+            <img src="https://w0.peakpx.com/wallpaper/845/537/HD-wallpaper-golden-retriever-puppy-dog-animal-high-quality.jpg" alt="Image 8" data-full="image8.jpg" data-description="This is image 8">
+        </div>
+        <div class="thumbnail">
+            <img src="https://www.dogsforgood.org/app/smush-webp/2020/06/Dogs-For-Good-October-22-2019-308-1024x660.jpg.webp" alt="Image 9" data-full="image9.jpg" data-description="This is image 9">
+        </div>
+        <div class="thumbnail">
+            <img src="https://i.pinimg.com/564x/cd/6e/70/cd6e70d305b707870655a14c45e7c3c8.jpg" alt="Image 10" data-full="image10.jpg" data-description="This is image 10">
+        </div>
+        <div class="thumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt6Dbs0gHFpphyaCv7J2TffeVQzyUeIFklVYLWeHYOtJD_0kCEiDs0krjBoey7Ws0Yv3I&usqp=CAU" alt="Image 11" data-full="image11.jpg" data-description="This is image 11">
+        </div>
+        <div class="thumbnail">
+            <img src="https://cdn.pixabay.com/photo/2022/01/24/17/01/dog-6964045_640.jpg" alt="Image 12" data-full="image12.jpg" data-description="This is image 12">
+        </div>
+
+        <!-- Add more thumbnails as needed -->
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <div id="description"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="hack2.js"></script>
+</body>
+</html>
